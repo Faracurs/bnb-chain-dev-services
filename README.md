@@ -1,46 +1,51 @@
-# BNB Chain Developer Services
+# BNB Chain Development Services
 
-A professional website for blockchain development services focused on BNB Chain.
+A modern web application showcasing blockchain development services on BNB Chain.
 
 ## Features
 
-- Modern UI with Tailwind CSS
-- Web3 Integration with wagmi and RainbowKit
-- BEP-20 Token Display
-- NFT Minting Interface
-- Contact Form
-- Responsive Design
+- Modern, responsive UI built with Next.js and Tailwind CSS
+- Web3 integration with wallet connection capabilities
+- Token price display and NFT minting functionality
+- Contact form for service inquiries
+- Optimized for performance and SEO
 
 ## Technologies Used
 
-- Next.js 15
-- React 19
-- Tailwind CSS
-- wagmi
-- RainbowKit
-- Framer Motion
-- TypeScript
+- **Frontend**: Next.js 15, React, Tailwind CSS
+- **Blockchain**: Ethers.js, wagmi, WalletConnect
+- **Deployment**: Netlify
 
 ## Development
 
-```bash
-# Install dependencies
-npm install
+### Prerequisites
 
-# Run development server
-npm run dev
+- Node.js 18 or higher
+- npm or yarn
 
-# Build for production
-npm run build
+### Setup
 
-# Start production server
-npm start
-```
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Create a `.env.local` file with required environment variables
+4. Run the development server:
+   ```
+   npm run dev
+   ```
 
 ## Deployment
 
-This site is deployed on Netlify at [lucent-centaur-532c4c.netlify.app](https://lucent-centaur-532c4c.netlify.app)
+This project is deployed on Netlify. The site is automatically deployed when changes are pushed to the main branch.
+
+Current deployment: [lucent-centaur-532c4c.netlify.app](https://lucent-centaur-532c4c.netlify.app)
 
 ## License
 
 MIT
+
+## Updates
+
+- Fixed routing conflicts by removing legacy Pages Router files (March 6, 2025)
