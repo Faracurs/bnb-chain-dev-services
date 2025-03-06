@@ -15,6 +15,10 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  // Prioritize App Router over Pages Router
+  experimental: {
+    appDir: true,
+  },
 };
 
 module.exports = nextConfig;
