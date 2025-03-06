@@ -49,3 +49,4 @@ MIT
 ## Updates
 
 - Fixed routing conflicts by removing legacy Pages Router files (March 6, 2025)
+- Fixed build errors related to missing modules and components (March 6, 2025)
