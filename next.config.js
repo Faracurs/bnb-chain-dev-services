@@ -6,8 +6,7 @@ const nextConfig = {
     domains: ['via.placeholder.com', 'assets.coingecko.com'],
     unoptimized: true,
   },
-  // For Netlify deployment
-  target: 'serverless',
+  // The 'target' property is no longer supported in Next.js
 };
 
 module.exports = nextConfig;
