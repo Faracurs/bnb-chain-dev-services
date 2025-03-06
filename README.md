@@ -48,8 +48,7 @@ MIT
 
 ## Updates
 
-- Fixed routing conflicts by removing legacy Pages Router files (March 6, 2025)
-- Fixed build errors related to missing modules and components (March 6, 2025)
-- Added minimal Pages Router components for compatibility (March 6, 2025)
-- Downgraded React to version 18 for better compatibility with dependencies (March 6, 2025)
-- Added valid React components to all pages to fix build errors (March 6, 2025)
+- Completely removed Pages Router in favor of App Router only (March 6, 2025)
+- Fixed React version compatibility issues (March 6, 2025)
+- Updated Netlify configuration for optimal deployment (March 6, 2025)
+- Moved pino-pretty to dependencies to fix WalletConnect warnings (March 6, 2025)
