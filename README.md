@@ -50,3 +50,5 @@ MIT
 
 - Fixed routing conflicts by removing legacy Pages Router files (March 6, 2025)
 - Fixed build errors related to missing modules and components (March 6, 2025)
+- Added minimal Pages Router components for compatibility (March 6, 2025)
+- Downgraded React to version 18 for better compatibility with dependencies (March 6, 2025)
