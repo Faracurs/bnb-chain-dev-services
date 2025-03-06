@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
-// This is a minimal valid component that redirects to the App Router version
+// This is a minimal valid component for the index page
 export default function LegacyHome() {
   const router = useRouter();
   
